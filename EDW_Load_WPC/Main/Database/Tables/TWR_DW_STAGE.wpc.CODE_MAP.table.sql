@@ -1,0 +1,10 @@
+USE [TWR_DW_STAGE]
+GO
+
+CREATE TABLE [wpc].[CODE_MAP](
+	[SRC_CD] [varchar](255) NOT NULL,
+	[EDW_CD] [varchar](255) NULL,
+	[CODE_NAME] [varchar](255) NOT NULL,
+	[DESCRIPTION] [varchar](255) NULL
+) ON [PRIMARY]
+GO

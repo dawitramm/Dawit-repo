@@ -1,0 +1,10 @@
+USE [TWR_DW_STAGE]
+GO
+
+CREATE TABLE [wpc].[NOT_MATCHED_ROWS](
+  [NUM_OF_ROWS] [int] NULL,
+  [ENTITY] [varchar](30) NULL,
+  [POLICY_VERSION_ID] [varchar](30) NULL,
+  [LOAD_DT] [datetime] NULL
+) ON [PRIMARY]
+GO

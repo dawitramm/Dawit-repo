@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<DTSDeploymentManifest
+ GeneratedBy="TOWERGROUP\arutkowski"
+ GeneratedFromProjectName="WPC_LOAD"
+ GeneratedDate="2014-02-24T22:06:38.0490571+01:00"
+ AllowConfigurationChanges="true">
+ <Package>WPC_PREMIUM_PARTY_ROLE.dtsx</Package>
+ <Package>WPC_PREMIUM_LIMIT.dtsx</Package>
+ <Package>WPC_PREMIUM_FORM.dtsx</Package>
+ <Package>WPC_PREMIUM_ADDRESS.dtsx</Package>
+ <Package>WPC_PREMIUM_DEDUCTIBLE.dtsx</Package>
+ <Package>WPC_STG_PREMIUM.dtsx</Package>
+ <Package>WPC_EDW_PREMIUM_MASTER.dtsx</Package>
+ <Package>WPC_PREMIUM_POLICY.dtsx</Package>
+ <Package>WPC_PREMIUM_COVERAGE.dtsx</Package>
+ <Package>WPC_PREMIUM_TRANSACTION.dtsx</Package>
+ <Package>WPC_PREMIUM_RISK.dtsx</Package>
+ <Package>WPC_PREMIUM_CLASS_CODE.dtsx</Package>
+ <Package>WPC_PREMIUM_PROPERTY.dtsx</Package>
+ <Package>WPC_PREMIUM_POLICY_TERM.dtsx</Package>
+ <Package>WPC_PREMIUM_POLICY_LINE_STATE.dtsx</Package>
+ <Package>WPC_PREMIUM_VEHICLE.dtsx</Package>
+ <Package>WPC_PREMIUM_PARTY.dtsx</Package>
+</DTSDeploymentManifest>

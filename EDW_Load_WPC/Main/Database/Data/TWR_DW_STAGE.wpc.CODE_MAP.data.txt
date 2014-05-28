@@ -1,0 +1,261 @@
+﻿SRC_CD	EDW_CD	CODE_NAME	DESCRIPTION
+5	NULL	DED_TYPE	Flat Deductible
+A	No Deductible	DED_TYPE	Full Cov. (No Ded)
+B	Deductible_1P	DED_TYPE	Basic Ded (1%)
+C	NULL	DED_TYPE	1/2 of 1%
+D	NULL	DED_TYPE	Flat Deductible
+078	NULL	EXPOSURE_BASIS_CD	Replacement Value
+138	405	EXPOSURE_BASIS_CD	Payroll
+175	NULL	EXPOSURE_BASIS_CD	Actual Cash Value
+177	NULL	EXPOSURE_BASIS_CD	Actual Cash Value
+178	NULL	EXPOSURE_BASIS_CD	Actual Cash Value
+275	350	EXPOSURE_BASIS_CD	Receipts
+277	350	EXPOSURE_BASIS_CD	Receipts
+278	350	EXPOSURE_BASIS_CD	Receipts
+338	264	EXPOSURE_BASIS_CD	Mileage
+938	NULL	EXPOSURE_BASIS_CD	(No Exposure)
+01	PA	POLICY_LOB_CD	Personal Auto - Standard/Preferred
+02	PA	POLICY_LOB_CD	Personal Auto (Auto-matic)
+03	PA	POLICY_LOB_CD	Motorcycle
+04	PA	POLICY_LOB_CD	Snowmobile
+05	PA	POLICY_LOB_CD	Personal Auto - Non-Standard
+10	CA	POLICY_LOB_CD	Commercial Auto - Standard
+11	CA	POLICY_LOB_CD	Commercial Auto - Standard (ACIC)
+12	CA	POLICY_LOB_CD	Commercial Auto Excess
+15	CA	POLICY_LOB_CD	Commercial Auto - Sub Standard
+16	CA	POLICY_LOB_CD	Crop Hail
+17	CA	POLICY_LOB_CD	CA - Liability ONLY
+18	CA	POLICY_LOB_CD	CA - Phys Damage ONLY
+19	PR	POLICY_LOB_CD	Commercial Property (SMP)
+20	PR	POLICY_LOB_CD	Commercial Fire
+21	PR	POLICY_LOB_CD	Commercial Fire (Package)
+22	DF	POLICY_LOB_CD	Dwelling Fire
+23	HO	POLICY_LOB_CD	Homeowners (IO Test)
+24	HO	POLICY_LOB_CD	Homeowners
+26	HO	POLICY_LOB_CD	Farmowners
+27	HO	POLICY_LOB_CD	Farm Fire
+32	HO	POLICY_LOB_CD	Mobile Homeowners
+34	GL	POLICY_LOB_CD	General Liability (SMP)
+35	GL	POLICY_LOB_CD	Commercial General Liability (Old Plan)
+36	GL	POLICY_LOB_CD	Commercial General Liability
+37	GL	POLICY_LOB_CD	Commercial General Liability (Package)
+38	GL	POLICY_LOB_CD	Commercial Garage Liability
+39	GL	POLICY_LOB_CD	General Liability Excess
+40	GL	POLICY_LOB_CD	Medical Professional Liability
+42	WC	POLICY_LOB_CD	Worker's Compensation
+44	GL	POLICY_LOB_CD	Personal Umbrella
+46	CU	POLICY_LOB_CD	Commercial Umbrella
+48	WC	POLICY_LOB_CD	Surety Bonds
+50	WC	POLICY_LOB_CD	Fidelity and Forgery
+52	CR	POLICY_LOB_CD	Crime
+53	CR	POLICY_LOB_CD	Personal Theft
+54	PG	POLICY_LOB_CD	CPL (Comp Pers Liab)
+55	PG	POLICY_LOB_CD	CPL Town Mutual
+56	PG	POLICY_LOB_CD	FCPL Farmer's Comp Pers Liab
+57	PG	POLICY_LOB_CD	FCPL Town Mutual
+58	GL	POLICY_LOB_CD	Personal Liability
+60	GL	POLICY_LOB_CD	Glass and Sign
+61	GL	POLICY_LOB_CD	Residence Glass
+67	GL	POLICY_LOB_CD	Scheduled Farm Personal Prop
+68	IM	POLICY_LOB_CD	Personal Inland Marine
+69	GL	POLICY_LOB_CD	Farm Outbuildings and Structures
+70	IM	POLICY_LOB_CD	Commercial Inland Marine
+71	NULL	POLICY_LOB_CD	Motor Truck Cargo
+72	PR	POLICY_LOB_CD	Commercial Flood
+73	NULL	POLICY_LOB_CD	Ocean Marine
+75	BO	POLICY_LOB_CD	Businessowners
+76	NULL	POLICY_LOB_CD	Blanket Farm Personal Property
+77	BO	POLICY_LOB_CD	Revised Businessowners
+78	BO	POLICY_LOB_CD	Business Owners Contractors
+BP	END	POLICY_TRANSACTION_TYPE_CD	BDC Policy Lev.
+BU	END	POLICY_TRANSACTION_TYPE_CD	BDC Unit/Cov
+CF	CAN	POLICY_TRANSACTION_TYPE_CD	Cancel Flat
+CP	CAN	POLICY_TRANSACTION_TYPE_CD	Cancel Prorata
+CS	CAN	POLICY_TRANSACTION_TYPE_CD	Cancel Short
+E	END	POLICY_TRANSACTION_TYPE_CD	Change
+EP	END	POLICY_TRANSACTION_TYPE_CD	EP Stats
+N	NEW	POLICY_TRANSACTION_TYPE_CD	New Business
+RE	REIN	POLICY_TRANSACTION_TYPE_CD	Reinstate
+RN	REN	POLICY_TRANSACTION_TYPE_CD	Renewal
+RW	REWR	POLICY_TRANSACTION_TYPE_CD	Rewrite
+BS01C	bus	VEHICLE_TYPE	Bus
+BS01P	bus	VEHICLE_TYPE	Bus
+BS05C	bus	VEHICLE_TYPE	Bus
+BS05P	bus	VEHICLE_TYPE	Bus
+MC03P	Motorcycle	VEHICLE_TYPE	Motorcycle
+MH01C	MotorHome	VEHICLE_TYPE	Motor Homes
+MH01P	MotorHome	VEHICLE_TYPE	Motor Homes
+MH05C	MotorHome	VEHICLE_TYPE	Motor Homes
+MH05P	MotorHome	VEHICLE_TYPE	Motor Homes
+PP01C	PrivatePassenger	VEHICLE_TYPE	Private Passenger
+PP01P	PrivatePassenger	VEHICLE_TYPE	Private Passenger
+PP02C	PrivatePassenger	VEHICLE_TYPE	Private Passenger
+PP02P	PrivatePassenger	VEHICLE_TYPE	Private Passenger
+PP05C	PrivatePassenger	VEHICLE_TYPE	Private Passenger
+PP05P	PrivatePassenger	VEHICLE_TYPE	Private Passenger
+TA01C	trailer	VEHICLE_TYPE	Trailer - Airstream
+TA01P	trailer	VEHICLE_TYPE	Trailer - Airstream
+TA05C	trailer	VEHICLE_TYPE	Trailer - Airstream
+TA05P	trailer	VEHICLE_TYPE	Trailer - Airstream
+TC01C	TruckWithCamperBody	VEHICLE_TYPE	Truck Campers
+TC01P	TruckWithCamperBody	VEHICLE_TYPE	Truck Campers
+TC05C	TruckWithCamperBody	VEHICLE_TYPE	Truck Campers
+TC05P	TruckWithCamperBody	VEHICLE_TYPE	Truck Campers
+TF01C	trailer	VEHICLE_TYPE	Trailer - Folding Camping
+TF01P	trailer	VEHICLE_TYPE	Trailer - Folding Camping
+TF05C	trailer	VEHICLE_TYPE	Trailer - Folding Camping
+TF05P	trailer	VEHICLE_TYPE	Trailer - Folding Camping
+TR01C	Truck	VEHICLE_TYPE	Truck
+TR01P	Truck	VEHICLE_TYPE	Truck
+TR05C	Truck	VEHICLE_TYPE	Truck
+TR05P	Truck	VEHICLE_TYPE	Truck
+TS01C	Truck	VEHICLE_TYPE	Truck with Shell
+TS01P	Truck	VEHICLE_TYPE	Truck with Shell
+TS05C	Truck	VEHICLE_TYPE	Truck with Shell
+TS05P	Truck	VEHICLE_TYPE	Truck with Shell
+TT01C	trailer	VEHICLE_TYPE	Trailer - Travel/Fifth Wheel
+TT01P	trailer	VEHICLE_TYPE	Trailer - Travel/Fifth Wheel
+TT02C	trailer	VEHICLE_TYPE	Trailer - Camping
+TT02P	trailer	VEHICLE_TYPE	Trailer - Camping
+TT05C	trailer	VEHICLE_TYPE	Trailer - Travel/Fifth Wheel
+TT05P	trailer	VEHICLE_TYPE	Trailer - Travel/Fifth Wheel
+TU01C	null	VEHICLE_TYPE	Trailer - Utility
+TU01P	null	VEHICLE_TYPE	Trailer - Utility
+TU02C	null	VEHICLE_TYPE	Trailer - Utility
+TU02P	null	VEHICLE_TYPE	Trailer - Utility
+TU05C	null	VEHICLE_TYPE	Trailer - Utility
+TU05P	null	VEHICLE_TYPE	Trailer - Utility
+VC01C	ConversionVan	VEHICLE_TYPE	Van - Conversion
+VC01P	ConversionVan	VEHICLE_TYPE	Van - Conversion
+VC05C	ConversionVan	VEHICLE_TYPE	Van - Conversion
+VC05P	ConversionVan	VEHICLE_TYPE	Van - Conversion
+VF01C	Van	VEHICLE_TYPE	Van - Full Size
+VF01P	Van	VEHICLE_TYPE	Van - Full Size
+VF05C	Van	VEHICLE_TYPE	Van - Full Size
+VF05P	Van	VEHICLE_TYPE	Van - Full Size
+VM01C	NULL	VEHICLE_TYPE	Van - Mini
+VM01P	NULL	VEHICLE_TYPE	Van - Mini
+VM05C	NULL	VEHICLE_TYPE	Van - Mini
+VM05P	NULL	VEHICLE_TYPE	Van - Mini
+10	A	LOB_CD	Commercial Auto - Standard
+11	A	LOB_CD	Commercial Auto - Standard (ACIC)
+12	A	LOB_CD	Commercial Auto Excess
+15	A	LOB_CD	Commercial Auto - Sub Standard
+16	A	LOB_CD	Crop Hail
+17	A	LOB_CD	CA - Liability ONLY
+18	A	LOB_CD	CA - Phys Damage ONLY
+38	A	LOB_CD	Commercial Garage Liability
+01	B	LOB_CD	Personal Auto - Standard/Preferred
+02	B	LOB_CD	Personal Auto (Auto-matic)
+03	B	LOB_CD	Motorcycle
+04	B	LOB_CD	Snowmobile
+05	B	LOB_CD	Personal Auto - Non-Standard
+23	H	LOB_CD	Homeowners (IO Test)
+24	H	LOB_CD	Homeowners
+26	H	LOB_CD	Farmowners
+27	H	LOB_CD	Farm Fire
+32	H	LOB_CD	Mobile Homeowners
+53	H	LOB_CD	Personal Theft
+34	L	LOB_CD	General Liability (SMP)
+35	L	LOB_CD	Commercial General Liability (Old Plan)
+36	L	LOB_CD	Commercial General Liability
+37	L	LOB_CD	Commercial General Liability (Package)
+39	L	LOB_CD	General Liability Excess
+40	L	LOB_CD	Medical Professional Liability
+44	L	LOB_CD	Personal Umbrella
+48	L	LOB_CD	Surety Bonds
+50	L	LOB_CD	Fidelity and Forgery
+58	L	LOB_CD	Personal Liability
+60	L	LOB_CD	Glass and Sign
+61	L	LOB_CD	Residence Glass
+67	L	LOB_CD	Scheduled Farm Personal Prop
+69	L	LOB_CD	Farm Outbuildings and Structures
+75	O	LOB_CD	Businessowners
+77	O	LOB_CD	Revised Businessowners
+19	P	LOB_CD	Commercial Property (SMP)
+20	P	LOB_CD	Commercial Fire
+21	P	LOB_CD	Commercial Fire (Package)
+72	P	LOB_CD	Commercial Flood
+46	U	LOB_CD	Commercial Umbrella
+42	W	LOB_CD	Worker's Compensation
+52	P	LOB_CD	Crime
+68	P	LOB_CD	Personal Inland Marine
+70	P	LOB_CD	Commercial Inland Marine
+22	P	LOB_CD	Dwelling Fire
+00	NULL	LOB_CD	Non-Userline Specific
+EXPT	expert	COST_CAT_CD	Expert fee
+INAD	indadj	COST_CAT_CD	Indep adjuster
+LEGL	legal	COST_CAT_CD	legal
+MEDI	medical_wcho	COST_CAT_CD	Medical
+MISC	miscellaneous	COST_CAT_CD	Misc.
+02	24007	COMPANY_CD	North East Insurance Company
+03	31151	COMPANY_CD	American Colonial Insurance Co.
+OTHR	OTHER	LOSS_CAUSE_CD	NULL
+DISAP	DISAP	LOSS_CAUSE_CD	NULL
+POLL	CONTA	LOSS_CAUSE_CD	NULL
+ANIMLP	OTHER	LOSS_CAUSE_CD	NULL
+BACK	OTHER	LOSS_CAUSE_CD	NULL
+BACKS	OTHER	LOSS_CAUSE_CD	NULL
+BACKN	OTHER	LOSS_CAUSE_CD	NULL
+ COLL	OTHER	LOSS_CAUSE_CD	NULL
+COLL	OTHER	LOSS_CAUSE_CD	NULL
+COLLN	OTHER	LOSS_CAUSE_CD	NULL
+DEER	OTHER	LOSS_CAUSE_CD	NULL
+EXP	OTHER	LOSS_CAUSE_CD	NULL
+GLASS	OTHER	LOSS_CAUSE_CD	NULL
+HEADN	OTHER	LOSS_CAUSE_CD	NULL
+HEADS	OTHER	LOSS_CAUSE_CD	NULL
+HIT	OTHER	LOSS_CAUSE_CD	NULL
+HITN	OTHER	LOSS_CAUSE_CD	NULL
+HITS	OTHER	LOSS_CAUSE_CD	NULL
+REARC	OTHER	LOSS_CAUSE_CD	NULL
+REARI	OTHER	LOSS_CAUSE_CD	NULL
+REARO	OTHER	LOSS_CAUSE_CD	NULL
+PVEHN	OTHER	LOSS_CAUSE_CD	NULL
+PVEHS	OTHER	LOSS_CAUSE_CD	NULL
+SHOOT	OTHER	LOSS_CAUSE_CD	NULL
+VEHB	OTHER	LOSS_CAUSE_CD	NULL
+VEHP	OTHER	LOSS_CAUSE_CD	NULL
+TURNN	OTHER	LOSS_CAUSE_CD	NULL
+TURNS	OTHER	LOSS_CAUSE_CD	NULL
+UTRNN	OTHER	LOSS_CAUSE_CD	NULL
+UTRNS	OTHER	LOSS_CAUSE_CD	NULL
+SMOKE	SMOKE	LOSS_CAUSE_CD	NULL
+ THEFT	THEFT	LOSS_CAUSE_CD	NULL
+THEFT	THEFT	LOSS_CAUSE_CD	NULL
+THEFTN	THEFT	LOSS_CAUSE_CD	NULL
+THEFTS	THEFT	LOSS_CAUSE_CD	NULL
+THFT	THEFT	LOSS_CAUSE_CD	NULL
+ VAND	VMM	LOSS_CAUSE_CD	NULL
+ VANDS	VMM	LOSS_CAUSE_CD	NULL
+VANDN	VMM	LOSS_CAUSE_CD	NULL
+FLOOD	FLOOD	LOSS_CAUSE_CD	NULL
+FREEZ	FREEZ	LOSS_CAUSE_CD	NULL
+ICE	FREEZ	LOSS_CAUSE_CD	NULL
+LEAKN	FREEZ	LOSS_CAUSE_CD	NULL
+LEAKS	FREEZ	LOSS_CAUSE_CD	NULL
+ WATER	WATER	LOSS_CAUSE_CD	NULL
+WATER	WATER	LOSS_CAUSE_CD	NULL
+WATERN	WATER	LOSS_CAUSE_CD	NULL
+DROWN	WATER	LOSS_CAUSE_CD	NULL
+ WIND	WIND	LOSS_CAUSE_CD	NULL
+WIND	WIND	LOSS_CAUSE_CD	NULL
+ FIRE	FIRE	LOSS_CAUSE_CD	NULL
+FIRE	FIRE	LOSS_CAUSE_CD	NULL
+FIREB	FIRE	LOSS_CAUSE_CD	NULL
+FIREN	FIRE	LOSS_CAUSE_CD	NULL
+FIREP	FIRE	LOSS_CAUSE_CD	NULL
+FIRES	FIRE	LOSS_CAUSE_CD	NULL
+LGHT	LIGHT	LOSS_CAUSE_CD	NULL
+HAIL	HAIL	LOSS_CAUSE_CD	NULL
+LIAB	LIAB	LOSS_CAUSE_CD	NULL
+FALL	SLIP	LOSS_CAUSE_CD	NULL
+FALLH	SLIP	LOSS_CAUSE_CD	NULL
+FALLN	SLIP	LOSS_CAUSE_CD	NULL
+FALLS	SLIP	LOSS_CAUSE_CD	NULL
+SLIP	SLIP	LOSS_CAUSE_CD	NULL
+INJRY	MEDIC	LOSS_CAUSE_CD	NULL
+ML	notifying	CHECK_STATUS_CD	Manual
+VD	voided	CHECK_STATUS_CD	Voided
+ML	notifying	CHECK_STATUS_CD	Manual
+VD	voided	CHECK_STATUS_CD	Voided

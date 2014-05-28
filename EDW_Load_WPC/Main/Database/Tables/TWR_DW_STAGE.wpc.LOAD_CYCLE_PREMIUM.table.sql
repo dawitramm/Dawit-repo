@@ -1,0 +1,11 @@
+USE [TWR_DW_STAGE]
+GO
+
+CREATE TABLE [wpc].[LOAD_CYCLE_PREMIUM](
+	[DESTINATION] [varchar](3) NOT NULL,
+	[STATUS] [varchar](8) NOT NULL,
+	[LOAD_TS] DATETIME NOT NULL,
+	[BatchExecutionID] [bigint] NULL
+) ON [PRIMARY]
+GO
+

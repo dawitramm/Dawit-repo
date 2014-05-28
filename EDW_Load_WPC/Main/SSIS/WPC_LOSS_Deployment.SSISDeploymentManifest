@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTSDeploymentManifest
+ GeneratedBy="TOWERGROUP\mkiluk"
+ GeneratedFromProjectName="WPC_Loss_LOAD"
+ GeneratedDate="2014-03-10T22:06:38.0490571+01:00"
+ AllowConfigurationChanges="true">
+ <Package>WPC_EDW_LOSS_ADDRESS.dtsx</Package>
+ <Package>WPC_EDW_LOSS_CLAIM.dtsx</Package>
+ <Package>WPC_EDW_LOSS_CLAIM_CHECK.dtsx</Package>
+ <Package>WPC_EDW_LOSS_CLAIM_TRANSACTION.dtsx</Package>
+ <Package>WPC_EDW_LOSS_CLAIM_TRANSACTION_CHECK.dtsx</Package>
+ <Package>WPC_EDW_LOSS_CLAIMANT.dtsx</Package>
+ <Package>WPC_EDW_LOSS_CLAIMANT_EXPOSURE.dtsx</Package>
+ <Package>WPC_EDW_LOSS_MASTER.dtsx</Package>
+ <Package>WPC_EDW_LOSS_PARTY.dtsx</Package>
+ <Package>WPC_EDW_LOSS_PARTY_ROLE.dtsx</Package>
+ <Package>WPC_STG_LOSS.dtsx</Package>
+</DTSDeploymentManifest>

@@ -1,0 +1,13 @@
+USE [TWR_DW_STAGE]
+GO
+
+CREATE TABLE [wpc].[POLICY_LINE_STATE](
+    [POLICY_LINE_STATE_KEY] [bigint] NOT NULL,
+    [POLICY_VERSION_ID] [varchar](30) NOT NULL,
+	[POLICY_TERM_KEY] [bigint] NULL,
+    [POLICY_LOB_CD] [varchar](16) NOT NULL,
+    [STATE_CD] [varchar](2) NOT NULL,
+    [LOAD_TS] [datetime] NOT NULL
+) ON [PRIMARY]
+
+GO

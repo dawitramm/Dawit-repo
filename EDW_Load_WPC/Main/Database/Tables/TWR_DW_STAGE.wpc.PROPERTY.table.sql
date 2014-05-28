@@ -1,0 +1,29 @@
+USE [TWR_DW_STAGE]
+GO
+
+CREATE TABLE [wpc].[PROPERTY](
+    [POLICY_VERSION_ID] [varchar](30) NOT NULL,
+	[RISK_KEY] [bigint] NULL,
+	[POLICY_TERM_KEY] [bigint] NULL,
+    [PROPERTY_KEY] [bigint] NOT NULL,
+    [TERRITORY_CD] [varchar](10) NULL,
+    [PROPERTY_NO] [int] NULL,
+	[CONSTRUCTION_CD] [varchar](30) NULL,
+	[PROTECTION_CD] [varchar](4) NULL,
+	[OCCUPANCY_CLASS_CD] [varchar](2) NULL,
+	[NO_OF_FAMILIES] [int] NULL,
+	[CONSTRUCTION_YEAR] [int] NULL,
+	[BCEG_CLASS_CD] [varchar](2) NULL,
+	[SMOKE_DETECTOR_IND] [varchar](1) NULL,
+	[FEET_TO_HYDRANT] [int] NULL,
+    [PROPERTY_NAME] [varchar](100) NULL,
+    [LOCATION_KEY] [bigint] NULL,
+    [LOCATION_NUMBER] [int] NULL,
+    [COINSURANCE_PCT] [numeric](18, 8) NULL,
+	[USER_LINE] varchar(2) NULL,
+	[COMMERCIAL_PERSONAL_IND] [varchar](1) NULL,
+	[WPC_PROPERTY_KEY] [int] NULL,
+	[LOAD_TS] [datetime] NOT NULL
+) ON [PRIMARY]
+
+GO
